@@ -1,8 +1,9 @@
 This is first homework for Advanced Programming course in UCU (2017 year).
+Lector @Jeka1978
+
 The assignment contains of three tasks which described 
 in separate package. There is additional package Utils which 
 contains helper functions.
-
 
 ## Task 1
 The best way how to replace **switch** statement in **JAVA** 
