@@ -11,7 +11,6 @@ public class Main {
 
         GuessGame guessGame = new GuessGame();
 
-
         while (wantContinue == JOptionPane.YES_OPTION) {
             guessGame.play();
 

@@ -6,7 +6,7 @@ import task3.characters.Hobbit;
 import task3.characters.King;
 import task3.characters.Knight;
 import task3.characters.domain.Character;
-import task3.utils.Utils;
+import utils.Utils;
 
 /**
  * Created by rudnitskih on 10/15/17.

@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import task3.characters.domain.Character;
 import task3.characters.domain.RandomKicker;
-import task3.utils.Utils;
+import utils.Utils;
 
 /**
  * Created by rudnitskih on 10/15/17.
@@ -27,6 +27,6 @@ public class King extends Character {
     }
 
     public void kick(Character enemy) {
-        randomKicker.kick(enemy);
+        randomKicker.randomKick(this, enemy);
     }
 }

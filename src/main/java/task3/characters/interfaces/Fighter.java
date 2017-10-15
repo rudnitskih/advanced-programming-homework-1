@@ -9,4 +9,6 @@ public interface Fighter {
     Integer getHp();
 
     void setHp(Integer newHp);
+
+
 }

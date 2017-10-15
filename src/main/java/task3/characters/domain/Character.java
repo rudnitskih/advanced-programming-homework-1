@@ -8,8 +8,6 @@ import task3.characters.interfaces.Kicker;
  * Created by rudnitskih on 10/15/17.
  */
 public abstract class Character implements Kicker, Alive, Fighter {
-    private Integer hp;
-
     abstract public Integer getHp();
 
     abstract public void setHp(Integer newHp);

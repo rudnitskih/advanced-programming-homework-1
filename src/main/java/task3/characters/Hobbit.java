@@ -21,6 +21,6 @@ public class Hobbit extends Character {
     }
 
     private void toCry() {
-        System.out.println("I don't want to kill you, I am peaceful hobbit.");
+        System.out.println("Hobbit: I don't want to kill you, I am peaceful hobbit.");
     }
 }

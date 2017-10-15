@@ -18,8 +18,10 @@ public class Elf extends Character {
 
     public void kick(Character enemy) {
         if (enemy.getPower() < this.power) {
+            System.out.println("Elf: I will kill you little bastard. Hahaha.");
             enemy.setHp(0);
         } else {
+            System.out.println("Elf: You are stronger than me. I will damage you on 1 HP.");
             enemy.decreaseHp(1);
         }
     }

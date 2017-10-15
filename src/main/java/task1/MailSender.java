@@ -1,7 +1,6 @@
 package task1;
 
 import lombok.SneakyThrows;
-import task1.mails.EmailsRegistry;
 import task1.mails.Mail;
 
 import java.util.HashMap;

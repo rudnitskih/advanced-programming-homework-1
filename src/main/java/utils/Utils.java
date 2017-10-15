@@ -1,4 +1,4 @@
-package task3.utils;
+package utils;
 
 import java.util.Random;
 

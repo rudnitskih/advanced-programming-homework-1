@@ -2,15 +2,15 @@ package task2;
 
 import lombok.Getter;
 import lombok.Setter;
+import utils.Utils;
 
 import javax.swing.*;
 import java.text.MessageFormat;
-import java.util.Random;
 
 /**
  * Created by rudnitskih on 10/14/17.
  */
-class GuessGame {
+public class GuessGame {
     @Getter
     @Setter
     private Integer bestScore = 0;
@@ -58,7 +58,7 @@ class GuessGame {
     }
 
     private Integer generateSecretNumber() {
-        return new Random().nextInt(max) % (max - min + 1) + min;
+        return Utils.getRandomInt(min, max);
     }
 
     private void showMessage(String message) {
